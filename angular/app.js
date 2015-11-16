@@ -1,5 +1,5 @@
 'use strict';
-var app = angular.module('TestApp', ['ngResource', "ngRoute", "ngCookies"]),
+var app = angular.module('testApp', ['ngResource', "ngRoute", "ngCookies"]),
     idParams = {id: '@id'},
     updParams = {
         update: {
